@@ -1,0 +1,145 @@
+# css
+
+.fnt-brand{
+    font-family: Nixie One, Monospace;
+    color: #09c467;
+    font-size: 20px;
+  }
+
+.fnt-nav{
+  font-family: Orbitron, Monospace;
+  font-size: 20px;
+}
+
+body { 
+  position: relative;
+  background-color: #007427; //#43a821;//#82D173;
+}
+
+//#nav_men{
+  //background-color: #42253B;
+ //}
+#about {padding-top:50px;height:500px; width: 70%;color: #fff; background-color:  black; 
+}
+  #portfolio {padding-top:50px;height:1000px; width: 70%; color: #fff; background-color: #252824; 
+}
+  #contact {padding-top:50px;height:500px; width: 70%; color: #fff; background-color: black; 
+}
+
+footer { 
+  
+  background-color: #252824;
+  position: absolute;
+  padding-left:30px;
+  padding-right:30px;
+padding-top:30px;height:90px; width: 100%; color: #fff;
+}
+
+.about-contact{
+  font-family: Khula, Monospace;
+  font-size: 30px;
+  color: #09c467;
+}
+
+.portfolio-text{
+  font-family: Khula, Monospace;
+  font-size: 30px;
+  color: #09c467;
+}
+
+h1{
+    font-family: Julius Sans One
+, Monospace;
+    color: #92D18B;
+   padding-left: 15px;
+}
+h2{
+  color: green;
+}
+
+.fnt-social{
+  font-family: Orbitron, Monospace;
+  font-size: 20px;
+}
+
+.thick-green-border {
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5%;
+  }
+
+.round-border {
+    font-size: 30px;
+    width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+     
+}
+
+i{
+ color: #09c467; 
+}
+
+
+
+p{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+
+ul li {
+   // display:inline;
+    margin-left:20px;
+}
+
+div button.round-border{
+    background-color:black;       
+    transition: color 1.5s linear; /* vendorless fallback */
+    -o-transition: color 1.5s linear; /* opera */
+    -ms-transition: color 1.5s linear; /* IE 10 */
+    -moz-transition: color 1.5s linear; /* Firefox */
+    -webkit-transition: background-color 1.5s linear; /*safari and chrome */
+}
+
+div button:hover {
+    background-color: #5FAE57;
+    cursor: pointer;
+}
+
+div button i:hover{
+    color: black;       
+    transition: color 1.0s linear; /* vendorless fallback */
+    -o-transition: color 1.0s linear; /* opera */
+    -ms-transition: color 1.0s linear; /* IE 10 */
+    -moz-transition: color 1.0s linear; /* Firefox */
+    -webkit-transition: color 1.0s linear; /*safari and chrome */
+}
+
+#submit{
+  margin-top: 10px;
+}
+
+.works{
+    background-color: #009131;
+    width: 250px;
+    height: 300px;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 25px;
+   
+}
+
+#media{
+  position: relative;
+}
+
+.body-text{
+  font-family: Khula, Monospace;
+  font-size: 25px;
+  color: #09c467;
+}
