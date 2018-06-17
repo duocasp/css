@@ -143,3 +143,10 @@ div button i:hover{
   font-size: 25px;
   color: #09c467;
 }
+
+
+.box{
+    
+    width: 100%;
+    pointer-events: none;
+}
