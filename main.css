@@ -146,7 +146,6 @@ div button i:hover{
 
 
 .box{
-    
-   // width: 100%;
-    //pointer-events: none;
+    width: 100%;
+    pointer-events: none;
 }
