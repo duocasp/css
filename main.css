@@ -2,7 +2,7 @@
 
 .fnt-brand{
     font-family: Nixie One, Monospace;
-    color: #09c467;
+    color: #ffce2b;
     font-size: 20px;
   }
 
@@ -13,17 +13,16 @@
 
 body { 
   position: relative;
-  background-color: #007427; //#43a821;//#82D173;
 }
 
 //#nav_men{
   //background-color: #42253B;
- //}
-#about {padding-top:50px;height:500px; width: 70%;color: #fff; background-color:  black; 
+// }
+#about {padding-top:50px;height:800px; width: 100%;color: #ffce2b ; background-color:  black ; 
 }
-  #portfolio {padding-top:50px;height:1000px; width: 70%; color: #fff; background-color: #252824; 
+#portfolio {padding-top:50px;height:1000px; width: 100%; color: #ffce2b ; background-color: #252824; 
 }
-  #contact {padding-top:50px;height:500px; width: 70%; color: #fff; background-color: black; 
+#contact {padding-top:100px;height:800px; width: 100%; color: #959492 ; background-color: black; 
 }
 
 footer { 
@@ -32,25 +31,25 @@ footer {
   position: absolute;
   padding-left:30px;
   padding-right:30px;
-padding-top:30px;height:90px; width: 100%; color: #fff;
+padding-top:30px;height:90px; width: 100%; color: #b2afac;
 }
 
 .about-contact{
   font-family: Khula, Monospace;
   font-size: 30px;
-  color: #09c467;
+  color: #959492 ;
 }
 
 .portfolio-text{
   font-family: Khula, Monospace;
   font-size: 30px;
-  color: #09c467;
+  color: #ffce2b ;
 }
 
 h1{
     font-family: Julius Sans One
 , Monospace;
-    color: #92D18B;
+    //color: #ffce2b ;
    padding-left: 15px;
 }
 h2{
@@ -81,7 +80,7 @@ h2{
 }
 
 i{
- color: #09c467; 
+ color: #ffce2b; 
 }
 
 
@@ -149,3 +148,46 @@ div button i:hover{
     width: 100%;
     pointer-events: none;
 }
+
+ .wrapper {
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .form-row > input {
+    flex: 5;
+  }
+  .form-row > textarea {
+    flex: 5;
+	border: 0;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+	flex: 5;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+   padding: .5em;
+   flex: 5;
+   
+  }
+  
+  form{
+	width: 45%;
+	
+	  
+  }	  
+	  
