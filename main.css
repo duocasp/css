@@ -193,11 +193,11 @@ div button i:hover{
   }	  
 	  
 .cover{
-  background-color: yellow;	
+  background-color: #ffce2b;	
   width: auto;
   height: 100%;	
 }
-
+/**
 @media screen and (min-width: 980px) /* Desktop */ {
   .cover {
     background: pink;
@@ -216,4 +216,4 @@ div button i:hover{
     background: green;
    // height: screen.height + "px";	  
   }
-}
+}**/
