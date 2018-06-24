@@ -191,3 +191,8 @@ div button i:hover{
 	  
   }	  
 	  
+.cover{
+  width: device-width;
+  height: device-height;
+  background-color: yellow;	
+}	
