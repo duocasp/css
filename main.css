@@ -13,6 +13,7 @@
 
 body { 
   position: relative;
+  height: 100%;	
 }
 
 //#nav_men{
@@ -194,13 +195,13 @@ div button i:hover{
 .cover{
   background-color: yellow;	
   width: auto;
-  	
+  height: 100%;	
 }
 
 @media screen and (min-width: 980px) /* Desktop */ {
   .cover {
     background: pink;
-     height: screen.height + "px";	  
+     //height: screen.height + "px";	  
   }
 }
 
@@ -213,6 +214,6 @@ div button i:hover{
 @media screen and (max-width: 500px) /* Mobile */ {
   .cover {
     background: green;
-    height: screen.height + "px";	  
+   // height: screen.height + "px";	  
   }
 }
