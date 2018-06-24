@@ -197,7 +197,7 @@ div button i:hover{
   	
 }
 
-@media screen and (min-height: 768px) /* Desktop */ {
+@media screen and (min-width: 980px) /* Desktop */ {
   .cover {
     background: pink;
      height: 768px;	  
@@ -210,9 +210,9 @@ div button i:hover{
   }
 }
 
-@media screen and (min-height: 640px) /* Mobile */ {
+@media screen and (max-width: 500px) /* Mobile */ {
   .cover {
     background: green;
-    max-height: 640px;	  
+    height: 640px;	  
   }
 }
