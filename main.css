@@ -213,6 +213,6 @@ div button i:hover{
 @media screen and (min-height: 640px) /* Mobile */ {
   .cover {
     background: green;
-    height: 640px;	  
+    max-height: 640px;	  
   }
 }
