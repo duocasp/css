@@ -192,7 +192,26 @@ div button i:hover{
   }	  
 	  
 .cover{
-  width: device-width;
-  height: device-height;
   background-color: yellow;	
-}	
+  width: auto;
+  height: screen.height;	
+}
+
+@media screen and (min-width: 980px) /* Desktop */ {
+  .cover {
+    background: red;
+    height: 	  
+  }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+  .cover {
+    background: blue;
+  }
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+  .cover {
+    background: green;
+  }
+}
