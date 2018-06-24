@@ -194,7 +194,7 @@ div button i:hover{
 .cover{
   background-color: yellow;	
   width: auto;
-  height: max-height;	
+  height: 100%;	
 }
 
 @media screen and (min-width: 980px) /* Desktop */ {
