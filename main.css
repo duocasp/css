@@ -199,7 +199,7 @@ div button i:hover{
 
 @media screen and (max-width: 768px) /* Desktop */ {
   .cover {
-    background: red;
+    background: pink;
      max-height: 768px;	  
   }
 }
