@@ -164,9 +164,10 @@
 }
 
 .proj-pic{
-  border: 10px solid #DCD200;
+  border: 5px solid black;
     border-radius: 10px;
     width: 30%;
+    height: 50%;
     margin: auto;
   
 }
