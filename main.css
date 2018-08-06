@@ -155,15 +155,22 @@
     right: 0;
     position: absolute;
   }
-
-  .img-responsive{
+#avatar{
+  border: 10px solid #DCD200;
+    border-radius: 50%;
+    width: 4em;
+    margin: auto;
+  
+}
+/* 
+.img-responsive{
     border: 10px solid #DCD200;
     border-radius: 50%;
     width: 4em;
     margin: auto;
     
 }
-
+*/
 
   
   h3{
