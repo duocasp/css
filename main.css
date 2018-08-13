@@ -333,7 +333,11 @@ height: 50%;
   
    #projects .grid-container{
     grid-template-columns: 1fr;
-    font-size: 2em;
+    
+  }
+     #projects .grid-item{
+     font-size: 1.3em;
+ 
   }
  
   
@@ -387,7 +391,11 @@ height: 50%;
   }
   #projects .grid-container{
     grid-template-columns: 1fr;
-    font-size: 2em;
+    
+  }
+    #projects .grid-item{
+     font-size: 1.4em;
+    
   }
   
 }
