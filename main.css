@@ -1,0 +1,386 @@
+/*added 08-09-18*/
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 15%;
+    z-index: 2;
+    
+}
+/* -------------------------------------- */
+#top{
+  width: 100%;
+  height: 40%;
+  background-color:  yellow;
+  position: relative;
+ 
+  
+}
+
+#top-title{
+   margin: auto;
+   font-size: 2.5em;
+   padding-top: 5%;
+   width: 70%;
+   height: 20%;
+   text-align: center;
+   font-family: 'Montserrat', Times, serif;
+   
+}
+
+
+
+#top-title::before{
+   content: "Hi, Welcome t ";
+  text-align: left;
+   background-color: black;
+   color: hsl(60, 100%, 30%);
+   box-shadow: 0 0 0 10px;
+}
+
+#top-title::after{
+   content: " o My Portfolio";
+   background-color: yellow;
+   color: hsl(60, 100%, 30%);
+   color: black;
+   text-align: right;
+   box-shadow: 0 0 0 10px;
+}
+
+#mid{
+  width: 100%;
+  height: 35%;
+  background: yellow;
+  
+ 
+}
+
+
+#bot{
+  width: 100%;
+  height: 25%;
+  background-color: yellow;
+  color: hsl(60, 100%, 30%);
+ 
+}
+
+
+#profile{
+   display: relative;
+   width: 70%;
+   
+   background-color: hsl(128, 99%, 93%);
+  position: absolute;
+   top: 20%;
+   left: 15%;
+   box-shadow: 0 0 0 6px white, 0 0 0 40px black;
+}
+
+
+
+#projects{
+   display: relative;
+   width: 70%;
+   
+   background-color: hsl(128, 99%, 93%);
+  position: absolute;
+   top: 20%;
+   left: 15%;
+      box-shadow: 0 0 0 10px white, 0 0 0 430px black;
+
+}
+
+#projects .grid-item{
+   font-size: 1.3em;
+}
+
+#about{
+   display: relative;
+   width: 70%;
+   font-size: 1.2em;
+   background-color: hsl(128, 99%, 93%);;
+  position: absolute;
+   top: 20%;
+   left: 15%;
+    box-shadow: 0 0 0 10px white, 0 0 0 430px black;
+   
+}
+
+#about p{
+  padding: 1%;
+  text-align: justify;
+}
+#about ul{
+   padding-bottom: 5%;
+}
+.menus{
+   text-align: center;
+   height: 80%;
+   padding: 20px;
+   color: #FFFD00;
+   
+}
+
+.button{
+  position: relative;
+  width: 85px;
+  height: 85px;
+  font-size: 20px;
+ text-align: center;
+  border-radius: 50%;
+  outline: 0;
+  font-size: 2em;
+  color: hsl(60, 100%, 30%);
+  border: 5px solid;
+  background-color: black;
+ 
+}
+
+.button:hover{
+   transition-duration: 1s;
+   color: black;
+   border: 5px solid;
+   background-color: yellow;
+ }
+
+.toMain{
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background-color: #DCD200;
+  position: absolute;
+  margin-left: 45%;
+  bottom: 0;
+ 
+}
+
+
+
+#head-left{
+    background-color: #DCD200;
+    height: 17%;
+    width: 50%;
+    color: black;
+    font-size: 33px;
+    font-family: "Rokkitt", Times, serif;
+    left: 0;
+    position: absolute;
+  }
+  
+#head-right{
+    background-color: #DCD200;
+    height: 17%;
+    width: 50%;
+    color: white;
+    font-size: 33px;
+    font-family: "Rokkitt", Times, serif;
+    padding-top: 2%;
+    right: 0;
+    position: absolute;
+  }
+
+  .img-responsive{
+    border: 10px solid #DCD200;
+    border-radius: 50%;
+    width: 4em;
+    margin: auto;
+    
+}
+
+
+  
+  h3{
+    
+    padding-top: 10%;
+  }
+  
+  
+  
+  .profileContent {
+    width: calc(50% - 2px);
+    //height: 45%;
+    
+    float: right;
+    
+  }
+
+#educ {
+    width: calc(50% - 2px);
+    height: 50%;
+    float: left;
+    margin-top: 15%;
+    
+  }
+
+#employment {
+    width: calc(50% - 2px);
+    height: 50%;
+    float: right;
+    margin-top: 15%;
+    
+  }
+
+
+#skills{
+  
+}
+
+  h4{
+    background-color: #DCD200;
+    text-align: center;
+  }
+  
+ 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px;
+   padding-top: 2%;
+   font-family: "Rokkitt", Times, serif;
+ 
+}
+
+.grid-item {
+  font-size: 1.1vw;
+  text-align: left;
+  margin-top: 2%;
+   font-family: "Rokkitt", Times, serif;
+  
+}
+
+.frames{
+  border: 10px solid black;
+  
+width: 70%;
+height: 50%;
+  pointer-events: none;
+  -webkit-transform:  scale(.2, .2);
+  -moz-transform:  scale(.2, .2);
+  -o-transform: scale(.2, .2);
+  -ms-transform:  scale(.2, .2);
+  transform:  scale(.8);
+  //overflow: hidden;
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 360px){
+/* Styles */
+  #top-title::before{
+     font-size: 1.2em;
+     content: 'My ';
+     font-family: sans-serif;
+  }
+  
+  #top-title::after{
+    font-size: 1.2em;
+   content: 'Portfolio';
+    font-family: sans-serif;
+   }
+  
+  #profile{
+    
+    box-shadow: 0 0 0 6px white, 0 0 0 90px black;
+  }
+  #head-right{
+    font-size: 2.em;
+  }
+  .grid-item{
+    font-size: .6em;
+  }
+  .profileContent{
+     width: 100%;
+    margin-top: 8%;
+     font-size: 1.5em;
+  }
+ 
+  #educ{
+    margin-top: 60%;
+    width: 100%;
+  }
+  
+  #employment{
+    margin-top: 10%;
+    width: 100%;
+  }
+  
+  #skills{
+   font-size: 1em;
+}
+  .toMain{
+    position: relative;
+    
+  }
+  
+   #projects .grid-container{
+    grid-template-columns: 1fr;
+    font-size: 2em;
+  }
+ 
+  
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 640px) and (orientation: landscape){
+/* Styles */
+  #top-title::before{
+     font-size: 1.2em;
+     content: 'My Web ';
+     font-family: sans-serif;
+  }
+  
+  #top-title::after{
+    font-size: 1.2em;
+   content: 'Portfolio';
+    font-family: sans-serif;
+   }
+  
+  #profile{
+    
+    box-shadow: 0 0 0 6px white, 0 0 0 90px black;
+  }
+  #head-right{
+    font-size: 2.em;
+  }
+  .grid-item{
+    font-size: .8em;
+  }
+  .profileContent{
+     width: 100%;
+    margin-top: 8%;
+     font-size: 1.5em;
+  }
+ 
+  #educ{
+    margin-top: 60%;
+    width: 100%;
+  }
+  #employment{
+    margin-top: 10%;
+    width: 100%;
+  }
+  #skills{
+   font-size: 1.2em;
+}
+  .toMain{
+    position: relative;
+    
+  }
+  #projects .grid-container{
+    grid-template-columns: 1fr;
+    font-size: 2em;
+  }
+  
+}
+
+
