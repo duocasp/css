@@ -230,6 +230,10 @@
     
   }
 
+#goals{
+ float: left;   
+}
+
 #employment {
     width: calc(50% - 2px);
     height: 50%;
