@@ -188,12 +188,21 @@
     position: absolute;
   }
 
-  .img-responsive{
-    border: 10px solid #DCD200;
+ #avatar{
+  border: 10px solid #DCD200;
     border-radius: 50%;
     width: 4em;
     margin: auto;
-    
+  
+}
+
+.proj-pic{
+  border: 5px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 73px;
+    margin: auto;
+  
 }
 
 
