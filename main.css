@@ -326,6 +326,9 @@ height: 50%;
   #skills{
    font-size: 1em;
 }
+  #goals{
+    font-size: 1em;  
+    }   
   .toMain{
     position: relative;
     
@@ -385,6 +388,9 @@ height: 50%;
   #skills{
    font-size: 1.2em;
 }
+  #goals{
+    font-size: 1.2em;  
+    }
   .toMain{
     position: relative;
     
