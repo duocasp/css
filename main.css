@@ -411,3 +411,6 @@ height: 50%;
 }
 
 
+#noclick{
+   pointer-events: none;
+}    
