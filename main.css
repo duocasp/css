@@ -300,7 +300,11 @@ height: 50%;
    content: 'Portfolio';
     font-family: sans-serif;
    }
-  
+    
+  #head-left, #head-right{
+    height: 15%;
+    
+  }
   #profile{
     
     box-shadow: 0 0 0 6px white, 0 0 0 90px black;
